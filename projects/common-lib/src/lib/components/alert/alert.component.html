@@ -1,0 +1,11 @@
+<div class="lib-alert-overlay">
+    <div class="lib-alert-box">
+        <span class="lib-alert-title">{{ title }}</span>
+        <span>{{ text }}</span>
+
+        <div class="lib-alert-btn-box">
+            <button *ngFor="let item of buttons" (click)="buttonPressed(item)">{{ item }}</button>
+        </div>
+
+    </div>
+</div>

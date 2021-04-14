@@ -1,0 +1,40 @@
+.lib-alert-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.lib-alert-overlay .lib-alert-box {
+    padding: 20px;
+    position: relative;
+    width: 300px;
+    top: 30%;
+    left: calc(50% - 150px);
+    text-align: center;
+
+    background: #fff;
+    z-index: 2;
+    border-radius: 12px;
+}
+
+.lib-alert-overlay .lib-alert-box span {
+    display: block;
+}
+
+.lib-alert-overlay .lib-alert-box .lib-alert-title {
+    font-size: 1.5rem;
+}
+
+.lib-alert-overlay .lib-alert-box .lib-alert-btn-box button {
+    display: inline-block;
+    margin: 10px 10px;
+    width: 30%;
+    height: 35px;
+    background: none;
+    border: 1px solid #b4b4b4;
+    border-radius: 7px;
+}
